@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Checkbox</title>
+	<style>
+		body
+		{
+			background: orchid;
+		}
+		h1
+		{
+			background: darkorange;
+		}
+		h2
+		{
+			background: burlywood;
+		}
+		input
+		{
+			accent-color: red;
+		}
+	</style>
+	<base href="E:\UI Practice\Project\Image\">
+</head>
+<body>
+	<h1 style="text-align: center;">Check-box</h1>
+	<form>
+		<label>Brand </label><br>
+		<input type="checkbox" id="brand1" name="brand" value="Samsung">
+		<label>Samsung</label>&nbsp;&nbsp;
+
+		<input type="checkbox" id="brand2" name="brand" value="Mi">
+		<label>Mi</label>&nbsp;&nbsp;
+
+		<input type="checkbox" id="brand3" name="brand" value="Apple" checked>
+		<label>Apple</label>&nbsp;&nbsp;
+
+		<input type="checkbox" id="brand4" name="brand" value="Moto">
+		<label>Moto</label>&nbsp;&nbsp;
+
+		<input type="checkbox" id="brand5" name="brand" value="Nokia">
+		<label>Nokia</label>&nbsp;&nbsp;
+
+		<input type="checkbox" id="brand6" name="brand" value="Realme">
+		<label>Realme</label>&nbsp;&nbsp;
+	</form>
+	<h1 style="text-align: center;">Radio Button</h1>
+	<form>
+		<label>Brand </label><br>
+		<input type="radio" id="brand1" name="brand" value="Samsung">
+		<label>Samsung</label>&nbsp;&nbsp;
+
+		<input type="radio" id="brand2" name="brand" value="Mi">
+		<label>Mi</label>&nbsp;&nbsp;
+
+		<input type="radio" id="brand3" name="brand" value="Apple" >
+		<label>Apple</label>&nbsp;&nbsp;
+
+		<input type="radio" id="brand4" name="brand" value="Moto">
+		<label>Moto</label>&nbsp;&nbsp;
+
+		<input type="radio" id="brand5" name="brand" value="Nokia" checked>
+		<label>Nokia</label>&nbsp;&nbsp;
+
+		<input type="radio" id="brand6" name="brand" value="Realme">
+		<label>Realme</label>&nbsp;&nbsp;
+	</form>
+
+	<h1 style="text-align: center;">Text Area tag</h1>
+	<label>Feedback</label><br>
+	<textarea id="fback"></textarea><br>
+	<label>Address</label><br>
+	<textarea id="address" cols="50" rows="15"></textarea>
+
+	<h1 style="text-align: center;">Drop-Down Control</h1>
+	<h2 style="text-align: center;">Select & Option</h2>
+	<ul>
+		<li>select is inline tag</li>
+		<li>option is block level tag</li>
+	</ul>
+	<select>
+		<option value="a">AAAAAA</option>
+		<option>BBBBBB</option>
+		<option selected>CCCCCC</option>
+		<option>DDDDDD</option>
+	</select>
+
+	<h1 style="text-align: center;">Detail & Summary Tag</h1>
+	<details>
+		<summary> Colors</summary>
+		<ul>
+				<li>red</li>
+				<li>orange</li>
+				<li>blue</li>
+				<li>yellow</li>
+			</ul>
+	</details>
+	<details>
+		<summary> Iamge</summary>
+		<img src="image/car1.jpg">
+		<img src="image/car2.jpg">
+		<img src="image/car3.jpg">
+		<img src="image/car4.jpg">
+	</details>
+	<h1 style="text-align: center;">Base , Mark & BDI Tag</h1>
+	<p><mark>W3Schools is a freemium educational website</mark> for learning coding online. Initially released in 1998, it derives its name from the World Wide Web but is not affiliated with the W3 Consortium. W3Schools offers courses covering all aspects of web development. W3Schools also publishes free HTML templates.</p><br>
+	<bdi>hello</bdi><br>
+	<img src="car1.jpg">
+	<img src="car2.jpg">
+	<img src="car3.jpg">
+	<img src="car4.jpg">
+
+	<h1 style="text-align: center;">Output Tag</h1>
+	<output>Hello</output>
+	<button onclick="document.write('button clicked')">Click Here</button><br>
+	<button onclick="op.value='button pressed'">Press here</button><br>
+	<output id="op">A</output><br>
+	<button onclick="dt.value=new Date()">show date</button>
+	<output id="dt"></output>
+
+	<h1 style="text-align: center;">Iframe Tag</h1>
+
+	<iframe src="E:\UI Practice\Project\car.html"></iframe><br>
+	<iframe src="edu1.jpg" width="260" height="26 0" frameborder ></iframe>
+</body>
+</html>
